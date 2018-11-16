@@ -1,0 +1,257 @@
+[
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app",
+        {
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1542402302934,
+            "changeTime": 1542402302934,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main",
+        {
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1542402302935,
+            "changeTime": 1542402302935,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267314,
+            "changeTime": 1542403267314,
+            "contentHash": "4cfd1989fa44dd1a317ae36b127a22da3b8eae1b"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1542402302936,
+            "changeTime": 1542402302936,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject",
+        {
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1542402421823,
+            "changeTime": 1542402421823,
+            "contentHash": "3d48858a737ab8c39315eaf1c5149980d1a9cdae",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account\\fields\\Test__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account\\fields\\Test__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 320,
+            "modifiedTime": 1542403267276,
+            "changeTime": 1542403267276,
+            "contentHash": "83ecc6251386d76fd2efae3c384204ce6ea6da8d"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9578,
+            "modifiedTime": 1542403267285,
+            "changeTime": 1542403267285,
+            "contentHash": "c8da9418afcd1aff212436a599a3ea2d8d02ed52"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9626,
+            "modifiedTime": 1542403267293,
+            "changeTime": 1542403267293,
+            "contentHash": "ffa1ae3fef6b89309c257e80bcfcc7ad11f35378"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9626,
+            "modifiedTime": 1542403267303,
+            "changeTime": 1542403267303,
+            "contentHash": "16a96208edcd1dfe331e0f10bb972559f3de972b"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9578,
+            "modifiedTime": 1542403267310,
+            "changeTime": 1542403267310,
+            "contentHash": "f91066059d02f5dd680e854b9691b65125f6492f"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4588,
+            "modifiedTime": 1542403267315,
+            "changeTime": 1542403267315,
+            "contentHash": "787c9a3e31af544e09a8c167cecb57add9572243"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 18108,
+            "modifiedTime": 1542403267336,
+            "changeTime": 1542403267336,
+            "contentHash": "ba1c978699f6cf60f604a53c0ed9135f07a347e3"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4584,
+            "modifiedTime": 1542403267347,
+            "changeTime": 1542403267347,
+            "contentHash": "7f543abef020e4907d745e20b72754494206ee76"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4924,
+            "modifiedTime": 1542403267350,
+            "changeTime": 1542403267350,
+            "contentHash": "92c3eac4613da881e6146c72cc1a738a7428e2d3"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267275,
+            "changeTime": 1542403267275,
+            "contentHash": "7ce110bceb26461491b136d13e45c02e7b067ad3"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects\\Account",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267273,
+            "changeTime": 1542403267273,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267273,
+            "changeTime": 1542403267273,
+            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267309,
+            "changeTime": 1542403267309,
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0"
+        }
+    ],
+    [
+        "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\ah\\git_local_repo_example\\Salesforce\\TestProject\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1542403267350,
+            "changeTime": 1542403267350,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+        }
+    ]
+]

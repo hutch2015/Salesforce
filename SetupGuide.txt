@@ -1,0 +1,101 @@
+﻿=== Commands
+  
+General CLI Reference https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm
+Orgs and Usernames: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_cli_usernames_orgs.htm
+
+1. Create Parent Directory and Open it in VS Code
+
+2. sfdx force:project:create -n <ProjectName> # create SFDX project
+
+-n PROJECTNAME
+[-t TEMPLATE]
+[-d OUTPUTDIR]
+[-s NAMESPACE]
+[-p DEFAULTPACKAGEDIR]
+[-x]
+[--json]
+[--loglevel LOGLEVEL]
+
+3. cd <ProjectName> # navigate to the project
+
+4. sfdx force:auth:web:login -d -a GovHub # Authorize the Dev Hub, set it as default Dev Hub, and give it an alias
+
+[-i CLIENTID]
+[-r INSTANCEURL]
+[-d]
+[-s]
+[-a SETALIAS]
+[--json]
+[--loglevel LOGLEVEL]
+
+5. In Chrome, Login to your org (may have to use custom domain)
+
+6. sfdx force:org:list # see that you are connected
+
+[-f DEFINITIONFILE]
+[-n]
+[-c]
+[-i CLIENTID]
+[-s]
+[-a SETALIAS]
+[-w WAIT]
+[-d DURATIONDAYS]
+[-v TARGETDEVHUBUSERNAME]
+[--json]
+[--loglevel LOGLEVEL]
+
+=== Orgs
+     ALIAS   USERNAME       ORG ID              CONNECTED STATUS
+───  ──────  ─────────────  ──────────────────  ────────────────
+(D)  GovHub  admin@cap.com  00Dt0000000CmZFEA0  Connected
+
+7. sfdx force:org:create --definitionfile config/project-scratch-def.json --setdefaultusername -a GovScratch2 
+# Create scratch Org, Based on Config File, Set it as Default Username, and Give it an alias
+
+8. sfdx force:org:list # see that you are connected. ("D" - Default Dev Hub, "U" - Default Scratch Org)
+=== Orgs
+     ALIAS   USERNAME       ORG ID              CONNECTED STATUS
+───  ──────  ─────────────  ──────────────────  ────────────────
+(D)  GovHub  admin@cap.com  00Dt0000000CmZFEA0  Connected
+
+     ALIAS        SCRATCH ORG NAME  USERNAME                       ORG ID              EXPIRATION DATE
+───  ───────────  ────────────────  ─────────────────────────────  ──────────────────  ───────────────
+(U)  GovScratch2  Demo Company      test-odhqywbnbrg5@example.com  00D350000008fp8EAA  2018-11-23
+
+9. sfdx force:org:open # Open Scratch Org
+
+10. sfdx force:auth:web:login -a DevEd # Login to Developer Edition or Other Sandbox
+
+11. sfdx force:mdapi:retrieve # Get a Package or Change Set from DevEd
+
+sfdx force:mdapi:retrieve -r force-app/DevED/newSRC -k force-app/DevED/package.xml -u DevEd
+-r RETRIEVETARGETDIR
+-k UNPACKAGED
+-p PACKAGENAMES
+-d SOURCEDIR
+-u TARGETUSERNAME
+
+12. Then you have to unzip it (In Windows Explorer) and get the folder structure right
+FDA
+- force-app
+-- DevEd
+--- src (this has all the regular MDAPI formatted source)
+
+13. sfdx force:mdapi:deploy # deploy to scratch org
+sfdx force:mdapi:deploy -d force-app/DevEd/src -c 
+
+-c Check Only
+-d DEPLOYDIR
+-l TESTLEVEL
+-r RUNTESTS
+-e ROLLBACKONERROR
+-u TARGETUSERNAME - defaults to the (U)
+-f ZIPFILE - if you don't want to unzip it you could also just deploy the ZIPFILE
+
+14. sfdx force:mdapi:convert # Convert from MDAPI to source
+sfdx force:mdapi:convert -r force-app/DevEd/src -d force-app/DevEdConverted
+
+-r ROOTDIR
+[-d OUTPUTDIR]
+[--json]
+[--loglevel LOGLEVEL]
